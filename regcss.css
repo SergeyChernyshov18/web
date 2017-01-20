@@ -1,0 +1,52 @@
+.reg
+{
+	font-size: 20px;
+	border: 2px solid #3e5f8a;
+	margin-left:500px;
+	margin-right:500px;
+	margin-top:100px;
+	background-color: #3e5f8a;
+	padding:15px;
+}
+.ghw
+{
+	padding-top: 20px;
+	background-color:white;
+	border: 0.5px dotted black;
+	margin-left:500px;
+	margin-right:500px;
+}
+font
+{
+	color:white;
+	font-family: Arial;
+}
+.input
+{
+	border:0.5px solid #e6e6fa;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:15px;
+	padding-bottom:15px;
+	
+}
+.butt
+{
+	background-color: #ffb300;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:50px;
+	padding-right:50px;
+	border: 2px solid #ff9900;
+	font-size:15px;
+	font-weight:bolder;
+	border-radius:5px;
+}
+section input:first-child
+{
+	border-radius:8px 8px 0 0;
+}
+section input:nth-last-child(5)
+{
+	border-radius:0 0 8px 8px;
+}

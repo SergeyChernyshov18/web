@@ -1,0 +1,21 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="regcss.css">
+</head>
+<body>
+	<section class="reg"align=center><font><b>Регистрация</b></font></section>
+	<section class="ghw"><form name="Регистарция" align=center>
+	<input type="text" class="input" pattern="[A-Za-zА-Яа-яЁё]{2,10}" name="name" autocomplete="off" required placeholder="Ваше имя"><br>
+	<input type="text" class="input" pattern="[A-Za-zА-Яа-яЁё]{4,14}" name="surname" required placeholder="Ваше фамилия"><br>
+	<input type="email" class="input" required placeholder="Ваш e-mail"><br>
+	<input type="password" class="input" pattern="((?=.*[a-z]{1,})(?=.*[A-Z]{2,})(?=.*[!@#$%^&*()-_=+\|/:?]{1,}).{6,12})" name="password" autocomplete="off" required placeholder="Пароль"><br>
+	<p>В какого Бога вы веруете?</p>
+	<p><input type="radio" name="god" value="god1">Кришна<br>
+	<input type="radio" name="god" value="god2">Иисус<br>
+	<input type="radio" name="god" value="god3">Будда<br>
+	<input type="radio" name="god" value="god4">Аллах<br>	
+	<input type="radio" name="god" value="god5">Ктулху<br></p>
+	<input type="submit" name="god" value="Зарегистрироватьcя!" class="butt"></section>
+</form>
+</body>
+</html>
